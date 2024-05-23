@@ -1,2 +1,2 @@
-# FPMI-Edu-Java
-This is educational repository for FPMI Java developer course
+# МФТИ Java
+Это репозиторий курса ["Разработка на Java"](https://fpmi-edu.ru/course_java/)
