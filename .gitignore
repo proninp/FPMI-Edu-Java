@@ -28,6 +28,8 @@ replay_pid*
 .idea/dictionaries
 .idea/vcs.xml
 .idea/jsLibraryMappings.xml
+.idea/artifacts/HomeWork02_jar.xml
+*/MANIFEST.MF
 
 # Sensitive or high-churn files:
 .idea/dataSources.ids
