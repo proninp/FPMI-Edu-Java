@@ -1,5 +1,8 @@
 package section3;
 
+
+import java.util.Arrays;
+
 public class Conditions {
     /**
      * 3.1 Модуль числа
@@ -110,12 +113,53 @@ public class Conditions {
      * @return возвращает строку, в которой сначала будет число х, а затем одно из слов: год, года, лет
      */
     public static String age(int x) {
+        if (x % 100 >= 11 && x % 100 <= 14)
+            return x + " лет";
         int remainder = x % 10;
-        if (remainder == 1 && x != 11)
+        if (remainder == 1)
             return x + " год";
-        if (remainder > 1 && remainder < 5 && x != 12 && x != 13 && x != 14)
+        if (remainder > 1 && remainder < 5)
             return x + " года";
         return x + " лет";
     }
 
+    /**
+     * 3.11 День недели
+     * @param x день недели
+     * @return возвращает текущий день недели, где 1- это понедельник, а 7 – воскресенье.
+     * Если число не от 1 до 7 то вернет текст “это не день недели”
+     */
+    public static String day(int x) {
+        return switch (x) {
+            case 1 -> "понедельник";
+            case 2 -> "вторник";
+            case 3 -> "среда";
+            case 4 -> "четверг";
+            case 5 -> "пятница";
+            case 6 -> "суббота";
+            case 7 -> "воскресенье";
+            default -> "это не день недели";
+        };
+    }
+
+    /**
+     * 3.12 Вывод дней недели
+     * @param x день недели
+     */
+    public static void printDays(String x) {
+        switch (x) {
+            case "понедельник": System.out.print("понедельник");
+            case "вторник": System.out.print("вторник");
+                case "среда": System.out.print("среда");
+                case "четверг": System.out.print("четверг");
+                case "пятница": System.out.print("пятница");
+                case "суббота": System.out.print("суббота");
+                case "воскресенье":
+                {
+                    System.out.print("воскресенье");
+                    break;
+                }
+                default: System.out.println("это не день недели");
+        }
+    }
 }

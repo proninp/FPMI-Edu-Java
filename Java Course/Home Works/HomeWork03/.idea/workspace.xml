@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9caa67-3b5a-4f84-8c09-23722e45d9ec" name="Changes" comment="" />
+    <list default="true" id="e8b9c120-62f1-4a45-8374-530c4fe1f760" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/section3/Conditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/section4/Loops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/section3/ConditionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/section4/LoopsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/section3/Conditions.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -21,30 +42,158 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2hHb0FEa3wNfnxXFzHlxVK1oq12" />
+  <component name="ProjectId" id="2hJl1U6klSXDcXX1Lpkiq72Pjph" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ConditionsTest.abs.executor": "Run",
+    "JUnit.ConditionsTest.age.executor": "Run",
+    "JUnit.ConditionsTest.is35.executor": "Run",
+    "JUnit.ConditionsTest.magic6.executor": "Run",
+    "JUnit.ConditionsTest.makeDecision.executor": "Run",
+    "JUnit.ConditionsTest.max.executor": "Run",
+    "JUnit.ConditionsTest.max3.executor": "Run",
+    "JUnit.ConditionsTest.safeDiv.executor": "Run",
+    "JUnit.ConditionsTest.sum2.executor": "Run",
+    "JUnit.ConditionsTest.sum3.executor": "Run",
+    "JUnit.ConditionsTest.testConditionsAge.executor": "Run",
+    "JUnit.ConditionsTest.testConditionsDay.executor": "Run",
+    "JUnit.ConditionsTest.testConditionsPrintDays.executor": "Run",
+    "JUnit.LoopsTest.listNums.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "HomeWork03",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Paul/source/repos/Git/FPMI-Edu-Java/Java Course/Home Works/HomeWork03/src/Main.java"
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="section4" />
+      <recent name="section3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LoopsTest.listNums">
+    <configuration name="ConditionsTest.is35" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="section3" />
+      <option name="MAIN_CLASS_NAME" value="section3.ConditionsTest" />
+      <option name="METHOD_NAME" value="is35" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConditionsTest.magic6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="section3" />
+      <option name="MAIN_CLASS_NAME" value="section3.ConditionsTest" />
+      <option name="METHOD_NAME" value="magic6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConditionsTest.sum2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="section3" />
+      <option name="MAIN_CLASS_NAME" value="section3.ConditionsTest" />
+      <option name="METHOD_NAME" value="sum2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConditionsTest.sum3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="section3" />
+      <option name="MAIN_CLASS_NAME" value="section3.ConditionsTest" />
+      <option name="METHOD_NAME" value="sum3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoopsTest.listNums" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="section4" />
+      <option name="MAIN_CLASS_NAME" value="section4.LoopsTest" />
+      <option name="METHOD_NAME" value="listNums" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoopsTest.listNums" />
+        <item itemvalue="JUnit.ConditionsTest.magic6" />
+        <item itemvalue="JUnit.ConditionsTest.is35" />
+        <item itemvalue="JUnit.ConditionsTest.sum2" />
+        <item itemvalue="JUnit.ConditionsTest.sum3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2f9caa67-3b5a-4f84-8c09-23722e45d9ec" name="Changes" comment="" />
-      <created>1717253724409</created>
+      <changelist id="e8b9c120-62f1-4a45-8374-530c4fe1f760" name="Changes" comment="" />
+      <created>1717319846030</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1717253724409</updated>
+      <updated>1717319846030</updated>
     </task>
     <servers />
   </component>
