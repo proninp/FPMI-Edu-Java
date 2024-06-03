@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8b9c120-62f1-4a45-8374-530c4fe1f760" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/section3/Conditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/section4/Loops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/section3/ConditionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/section4/LoopsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+    <list default="true" id="e8b9c120-62f1-4a45-8374-530c4fe1f760" name="Changes" comment="Home Work 03 Java code 02 02.06.2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork03.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/section3/Conditions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/section4/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section4/Loops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/section4/LoopsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/section4/LoopsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +24,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "proninp"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="78fc6860-135b-4962-8f39-eb96ee2b0bda" />
+        <option name="url" value="https://github.com/proninp/FPMI-Edu-Java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -65,6 +63,7 @@
     "JUnit.ConditionsTest.testConditionsDay.executor": "Run",
     "JUnit.ConditionsTest.testConditionsPrintDays.executor": "Run",
     "JUnit.LoopsTest.listNums.executor": "Run",
+    "JUnit.LoopsTest.reverseListNums.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -137,22 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionsTest.sum3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeWork03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="section3" />
-      <option name="MAIN_CLASS_NAME" value="section3.ConditionsTest" />
-      <option name="METHOD_NAME" value="sum3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoopsTest.listNums" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork03" />
       <extension name="coverage">
@@ -169,13 +152,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoopsTest.reverseListNums" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="section4" />
+      <option name="MAIN_CLASS_NAME" value="section4.LoopsTest" />
+      <option name="METHOD_NAME" value="reverseListNums" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LoopsTest.listNums" />
+        <item itemvalue="JUnit.LoopsTest.reverseListNums" />
         <item itemvalue="JUnit.ConditionsTest.magic6" />
         <item itemvalue="JUnit.ConditionsTest.is35" />
         <item itemvalue="JUnit.ConditionsTest.sum2" />
-        <item itemvalue="JUnit.ConditionsTest.sum3" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +194,30 @@
       <option name="presentableId" value="Default" />
       <updated>1717319846030</updated>
     </task>
+    <task id="LOCAL-00001" summary="Home Work 03 Java code 02 02.06.2024">
+      <option name="closed" value="true" />
+      <created>1717335517417</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717335517417</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Home Work 03 Java code 02 02.06.2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Work 03 Java code 02 02.06.2024" />
   </component>
 </project>
