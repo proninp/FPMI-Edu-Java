@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8b9c120-62f1-4a45-8374-530c4fe1f760" name="Changes" comment="Home Work 03 Java code 04 04.06.2024">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/section5/ArraysFpmi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/section5/ArraysFpmiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;proninp&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="78fc6860-135b-4962-8f39-eb96ee2b0bda" />
+        <option name="url" value="https://github.com/proninp/FPMI-Edu-Java.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2hJl1U6klSXDcXX1Lpkiq72Pjph" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.ArraysFpmiTest.add.executor": "Run",
+    "JUnit.ArraysFpmiTest.addAll.executor": "Run",
+    "JUnit.ArraysFpmiTest.concat.executor": "Run",
+    "JUnit.ArraysFpmiTest.countPositive.executor": "Run",
+    "JUnit.ArraysFpmiTest.deleteNegative.executor": "Run",
+    "JUnit.ArraysFpmiTest.findAll.executor": "Run",
+    "JUnit.ArraysFpmiTest.palindrom.executor": "Run",
+    "JUnit.ArraysFpmiTest.reverse.executor": "Run",
+    "JUnit.ArraysFpmiTest.reverseBack.executor": "Run",
+    "JUnit.ArrayssTest.findFirst.executor": "Run",
+    "JUnit.ArrayssTest.findLast.executor": "Run",
+    "JUnit.ArrayssTest.maxAbs.executor": "Run",
+    "JUnit.ConditionsTest.abs.executor": "Run",
+    "JUnit.ConditionsTest.age.executor": "Run",
+    "JUnit.ConditionsTest.is35.executor": "Run",
+    "JUnit.ConditionsTest.magic6.executor": "Run",
+    "JUnit.ConditionsTest.makeDecision.executor": "Run",
+    "JUnit.ConditionsTest.max.executor": "Run",
+    "JUnit.ConditionsTest.max3.executor": "Run",
+    "JUnit.ConditionsTest.safeDiv.executor": "Run",
+    "JUnit.ConditionsTest.sum2.executor": "Run",
+    "JUnit.ConditionsTest.sum3.executor": "Run",
+    "JUnit.ConditionsTest.testConditionsAge.executor": "Run",
+    "JUnit.ConditionsTest.testConditionsDay.executor": "Run",
+    "JUnit.ConditionsTest.testConditionsPrintDays.executor": "Run",
+    "JUnit.LoopsTest.chet.executor": "Run",
+    "JUnit.LoopsTest.equalNum.executor": "Run",
+    "JUnit.LoopsTest.getLeftTriangle.executor": "Run",
+    "JUnit.LoopsTest.getRightTriangle.executor": "Run",
+    "JUnit.LoopsTest.getSquare.executor": "Run",
+    "JUnit.LoopsTest.listNums.executor": "Run",
+    "JUnit.LoopsTest.numLen.executor": "Run",
+    "JUnit.LoopsTest.pow.executor": "Run",
+    "JUnit.LoopsTest.reverseListNums.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "HomeWork03",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="section5" />
+      <recent name="section4" />
+      <recent name="section3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ArraysFpmiTest.addAll">
+    <configuration name="ArraysFpmiTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="section5" />
+      <option name="MAIN_CLASS_NAME" value="section5.ArraysFpmiTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysFpmiTest.addAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="section5" />
+      <option name="MAIN_CLASS_NAME" value="section5.ArraysFpmiTest" />
+      <option name="METHOD_NAME" value="addAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysFpmiTest.concat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="section5" />
+      <option name="MAIN_CLASS_NAME" value="section5.ArraysFpmiTest" />
+      <option name="METHOD_NAME" value="concat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysFpmiTest.deleteNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="section5" />
+      <option name="MAIN_CLASS_NAME" value="section5.ArraysFpmiTest" />
+      <option name="METHOD_NAME" value="deleteNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysFpmiTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="section5" />
+      <option name="MAIN_CLASS_NAME" value="section5.ArraysFpmiTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArraysFpmiTest.addAll" />
+        <item itemvalue="JUnit.ArraysFpmiTest.add" />
+        <item itemvalue="JUnit.ArraysFpmiTest.deleteNegative" />
+        <item itemvalue="JUnit.ArraysFpmiTest.findAll" />
+        <item itemvalue="JUnit.ArraysFpmiTest.concat" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8b9c120-62f1-4a45-8374-530c4fe1f760" name="Changes" comment="" />
+      <created>1717319846030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717319846030</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Home Work 03 Java code 02 02.06.2024">
+      <option name="closed" value="true" />
+      <created>1717335517417</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717335517417</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Home Work 03 Java code 04 04.06.2024">
+      <option name="closed" value="true" />
+      <created>1717477158872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717477158872</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Home Work 03 Java code 02 02.06.2024" />
+    <MESSAGE value="Home Work 03 Java code 04 04.06.2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Work 03 Java code 04 04.06.2024" />
+  </component>
+</project>
