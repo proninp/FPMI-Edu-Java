@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8b9c120-62f1-4a45-8374-530c4fe1f760" name="Changes" comment="Home Work 03 Java code 02 02.06.2024">
+    <list default="true" id="e8b9c120-62f1-4a45-8374-530c4fe1f760" name="Changes" comment="Home Work 03 Java code 04 04.06.2024">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/section5/ArraysFpmi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/section5/ArraysFpmiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/section4/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section4/Loops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/section4/LoopsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/section4/LoopsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.ArraysFpmiTest.add.executor": "Run",
+    "JUnit.ArraysFpmiTest.addAll.executor": "Run",
+    "JUnit.ArraysFpmiTest.concat.executor": "Run",
+    "JUnit.ArraysFpmiTest.countPositive.executor": "Run",
+    "JUnit.ArraysFpmiTest.deleteNegative.executor": "Run",
+    "JUnit.ArraysFpmiTest.findAll.executor": "Run",
+    "JUnit.ArraysFpmiTest.palindrom.executor": "Run",
+    "JUnit.ArraysFpmiTest.reverse.executor": "Run",
+    "JUnit.ArraysFpmiTest.reverseBack.executor": "Run",
+    "JUnit.ArrayssTest.findFirst.executor": "Run",
+    "JUnit.ArrayssTest.findLast.executor": "Run",
+    "JUnit.ArrayssTest.maxAbs.executor": "Run",
     "JUnit.ConditionsTest.abs.executor": "Run",
     "JUnit.ConditionsTest.age.executor": "Run",
     "JUnit.ConditionsTest.is35.executor": "Run",
@@ -92,77 +104,87 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="section5" />
       <recent name="section4" />
       <recent name="section3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="HomeWork03" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoopsTest.equalNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArraysFpmiTest.addAll">
+    <configuration name="ArraysFpmiTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section4.*" />
+          <option name="PATTERN" value="section5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="section4" />
-      <option name="MAIN_CLASS_NAME" value="section4.LoopsTest" />
-      <option name="METHOD_NAME" value="equalNum" />
+      <option name="PACKAGE_NAME" value="section5" />
+      <option name="MAIN_CLASS_NAME" value="section5.ArraysFpmiTest" />
+      <option name="METHOD_NAME" value="add" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopsTest.getLeftTriangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysFpmiTest.addAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section4.*" />
+          <option name="PATTERN" value="section5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="section4" />
-      <option name="MAIN_CLASS_NAME" value="section4.LoopsTest" />
-      <option name="METHOD_NAME" value="getLeftTriangle" />
+      <option name="PACKAGE_NAME" value="section5" />
+      <option name="MAIN_CLASS_NAME" value="section5.ArraysFpmiTest" />
+      <option name="METHOD_NAME" value="addAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopsTest.getRightTriangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysFpmiTest.concat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section4.*" />
+          <option name="PATTERN" value="section5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="section4" />
-      <option name="MAIN_CLASS_NAME" value="section4.LoopsTest" />
-      <option name="METHOD_NAME" value="getRightTriangle" />
+      <option name="PACKAGE_NAME" value="section5" />
+      <option name="MAIN_CLASS_NAME" value="section5.ArraysFpmiTest" />
+      <option name="METHOD_NAME" value="concat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopsTest.getSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysFpmiTest.deleteNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section4.*" />
+          <option name="PATTERN" value="section5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="section4" />
-      <option name="MAIN_CLASS_NAME" value="section4.LoopsTest" />
-      <option name="METHOD_NAME" value="getSquare" />
+      <option name="PACKAGE_NAME" value="section5" />
+      <option name="MAIN_CLASS_NAME" value="section5.ArraysFpmiTest" />
+      <option name="METHOD_NAME" value="deleteNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysFpmiTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="section5" />
+      <option name="MAIN_CLASS_NAME" value="section5.ArraysFpmiTest" />
+      <option name="METHOD_NAME" value="findAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.LoopsTest.getSquare" />
-        <item itemvalue="JUnit.LoopsTest.getLeftTriangle" />
-        <item itemvalue="JUnit.LoopsTest.getRightTriangle" />
-        <item itemvalue="JUnit.LoopsTest.equalNum" />
+        <item itemvalue="JUnit.ArraysFpmiTest.addAll" />
+        <item itemvalue="JUnit.ArraysFpmiTest.add" />
+        <item itemvalue="JUnit.ArraysFpmiTest.deleteNegative" />
+        <item itemvalue="JUnit.ArraysFpmiTest.findAll" />
+        <item itemvalue="JUnit.ArraysFpmiTest.concat" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717335517417</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Home Work 03 Java code 04 04.06.2024">
+      <option name="closed" value="true" />
+      <created>1717477158872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717477158872</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +248,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Home Work 03 Java code 02 02.06.2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Work 03 Java code 02 02.06.2024" />
+    <MESSAGE value="Home Work 03 Java code 04 04.06.2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Work 03 Java code 04 04.06.2024" />
   </component>
 </project>
