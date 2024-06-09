@@ -31,7 +31,6 @@ public class ExpressionConverter implements IReversePolishNotationConverter {
      * @return выражение в формате обратной Польской записи
      */
     @Override
-    // Формируем обратную польскую запись
     public String convert(String infixExpression) {
         if (infixExpression.isEmpty())
             return "";
@@ -106,9 +105,9 @@ public class ExpressionConverter implements IReversePolishNotationConverter {
         var bracketsStack = new ArrayDeque<Character>();
         for (int i = 0; i < infixExpression.length(); i++) {
             char c = infixExpression.charAt(i);
-            if (c == '(') {
+            if (c == OPEN_BRACKET) {
                 bracketsStack.push(c);
-            } else if (c == ')') {
+            } else if (c == CLOSE_BRACKET) {
                 bracketsStack.pop();
             }
         }
