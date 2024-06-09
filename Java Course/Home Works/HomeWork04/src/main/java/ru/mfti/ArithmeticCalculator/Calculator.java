@@ -1,6 +1,6 @@
 package ru.mfti.ArithmeticCalculator;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
 
 import static ru.mfti.ArithmeticCalculator.ExpressionConverter.operatorsPriority;
 import static ru.mfti.ArithmeticCalculator.ExpressionUtil.*;
@@ -39,7 +39,7 @@ public class Calculator implements ICalculate {
     private double calculateRpn(String rpn) {
         StringBuilder sbNumber = new StringBuilder();
 
-        var stack = new Stack<Double>();
+        var stack = new ArrayDeque<Double>();
         for (int i = 0; i < rpn.length(); i++) {
             char c = rpn.charAt(i);
             if (Character.isDigit(c)) {

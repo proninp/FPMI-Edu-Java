@@ -1,7 +1,8 @@
 package ru.mfti.ArithmeticCalculator;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Map;
-import java.util.Stack;
 
 import static ru.mfti.ArithmeticCalculator.ExpressionUtil.*;
 
@@ -17,10 +18,10 @@ public class ExpressionConverter implements IReversePolishNotationConverter {
             UNARY_MINUS, 4
     );
     private final StringBuilder postfixExpression;
-    private final Stack<Character> operatorsStack;
+    private final Deque<Character> operatorsStack;
 
     public ExpressionConverter() {
-        operatorsStack = new Stack<>();
+        operatorsStack = new ArrayDeque<>();
         postfixExpression = new StringBuilder();
     }
 
@@ -102,7 +103,7 @@ public class ExpressionConverter implements IReversePolishNotationConverter {
     }
 
     private boolean checkPairedBrackets(String infixExpression) {
-        var bracketsStack = new Stack<Character>();
+        var bracketsStack = new ArrayDeque<Character>();
         for (int i = 0; i < infixExpression.length(); i++) {
             char c = infixExpression.charAt(i);
             if (c == '(') {
