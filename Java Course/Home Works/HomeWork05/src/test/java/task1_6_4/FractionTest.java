@@ -1,4 +1,4 @@
-package task1;
+package task1_6_4;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

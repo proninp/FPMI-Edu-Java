@@ -1,18 +1,13 @@
-package task1;
+package task1_6_4;
+
+import lombok.Getter;
 
 import java.util.Objects;
 
+@Getter
 public class Fraction {
     private int numerator; // числитель
     private int denominator; // знаменатель
-
-    public int getNumerator() {
-        return numerator;
-    }
-
-    public int getDenominator() {
-        return denominator;
-    }
 
     public Fraction(int numerator, int denominator) {
         if (denominator <= 0) {
