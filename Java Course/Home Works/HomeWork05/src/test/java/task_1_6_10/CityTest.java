@@ -35,8 +35,8 @@ class CityTest {
 
         e.addRoute(f, 2);
 
-        Assertions.assertThrows(IllegalArgumentException.class, () -> a.addRoute(a, 0));
-        Assertions.assertThrows(IllegalArgumentException.class, () -> a.addRoute(b, 5));
+        Assertions.assertFalse(a.addRoute(a, 0));
+        Assertions.assertFalse(a.addRoute(b, 5));
 
         a.removeRoute(ab);
         a.addRoute(b, 5);

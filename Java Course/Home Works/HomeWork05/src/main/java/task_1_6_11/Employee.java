@@ -26,23 +26,19 @@ public class Employee {
      * Если сотрудник являеся руководиетелем в другом отделе, то перед изменением отдела у сотрудника, нужно
      * изменить руководитея отдела, иначе будет выбрашено исключение
      * @param newDepartment новый отдел
-     * @throws UnsupportedOperationException если сотрудник является руководителем в другом отделе
-     * @throws IllegalArgumentException если сотрудник уже работает в отеделе назначения
      */
-    public void setDepartment(Department newDepartment) {
+    public boolean setDepartment(Department newDepartment) {
         if (this.department != null) {
             if (department.equals(newDepartment))
-                throw new IllegalArgumentException(String.format("Сотрудник %s уже работает в отделе %s",
-                        this.getName(), department.getName()));
+                return false;
 
             // Если сотрудник является руководителем в своём отделе
             if (this.department.getManager().equals(this)) {
-                throw new UnsupportedOperationException(String.format("Сотрудник %s является руководителем отдела %s," +
-                                " перед переводом сотрудника в другой отдел, необходимо назначить другого руководителя",
-                        this.name, this.department.getName()));
+                return false;
             }
         }
         this.department = newDepartment;
+        return true;
     }
 
     public boolean isManager() {

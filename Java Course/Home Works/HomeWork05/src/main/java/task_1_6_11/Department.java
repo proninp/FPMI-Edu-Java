@@ -18,11 +18,12 @@ public class Department {
         setManager(manager);
     }
 
-    public void setManager(Employee newManager) {
+    public boolean setManager(Employee newManager) {
         if (newManager.getDepartment() != null && !newManager.getDepartment().getName().equals(this.getName()))
-            throw new IllegalArgumentException(String.format("Сотрудник %s должен принадлежать к отделу %s", newManager.getName(), this.getName()));
+            return false;
 
         this.manager = newManager;
+        return true;
     }
 
     @Override

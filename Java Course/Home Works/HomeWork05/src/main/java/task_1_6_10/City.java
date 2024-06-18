@@ -25,9 +25,12 @@ public class City {
      * Функция добавления нового маршрута
      * @param newRoute маршрут для добавления
      */
-    public void addRoute(Route newRoute) {
-        checkNewRoute(newRoute);
+    public boolean addRoute(Route newRoute) {
+        if (!checkNewRoute(newRoute))
+            return false;
         this.routes.add(newRoute);
+        return true;
+
     }
 
     /**
@@ -35,8 +38,8 @@ public class City {
      * @param city город нового маршрута
      * @param price стоимость маршрута
      */
-    public void addRoute(City city, double price) {
-        addRoute(new Route(city, price));
+    public boolean addRoute(City city, double price) {
+        return addRoute(new Route(city, price));
     }
 
     public boolean removeRoute(Route route) {
@@ -48,14 +51,11 @@ public class City {
     }
 
     // Проверка маршрута перед добавлением
-    private void checkNewRoute(Route newRoute) {
+    private boolean checkNewRoute(Route newRoute) {
         if (newRoute.getCity().getName().equals(this.getName())) {
-            throw new IllegalArgumentException("Нельзя создать маршрут между одним и тем же городом");
+            return false;
         }
-        if (routes.contains(newRoute)) {
-            throw new IllegalArgumentException(String.format("Маршрут между городами %s и %s уже существует",
-                    newRoute.getCity().getName(), this.getName()));
-        }
+        return (!routes.contains(newRoute));
     }
 
     @Override

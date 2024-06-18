@@ -10,8 +10,8 @@ public class Student {
     private final int UPPER_GRADE = 5;
 
     @Getter
-    String name;
-    List<Integer> grades;
+    private String name;
+    private List<Integer> grades;
 
     public Student(String name, int...grades) {
         this.name = name;
