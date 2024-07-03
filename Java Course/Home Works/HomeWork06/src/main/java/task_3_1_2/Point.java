@@ -2,10 +2,11 @@ package task_3_1_2;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import task_3_3_5.Planar;
 
 @Getter
 @RequiredArgsConstructor
-public class Point {
+public class Point implements Planar {
     private final int x;
     private final int y;
 
@@ -16,5 +17,10 @@ public class Point {
     @Override
     public String toString() {
         return String.format("{%s; %s}", x, y);
+    }
+
+    @Override
+    public double length() {
+        return 0;
     }
 }

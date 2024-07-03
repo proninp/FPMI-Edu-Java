@@ -1,10 +1,12 @@
 package task_3_1_2;
 
+import task_3_3_5.Planar;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Polyline {
+public class Polyline implements Planar {
     List<Point> points;
 
     public Polyline() {
@@ -28,6 +30,7 @@ public class Polyline {
         }
     }
 
+    @Override
     public double length() {
         double length = 0;
         for (int i = 1; i < points.size(); i++) {
@@ -47,4 +50,6 @@ public class Polyline {
 
         return String.format("Линия [%s]", sb);
     }
+
+
 }
