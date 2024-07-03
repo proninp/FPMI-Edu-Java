@@ -8,6 +8,10 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        totalArea();
+    }
+
+    public static void totalArea() {
         List<Figure> figures = new ArrayList<>();
         figures.add(new Circle(new Point(10, 6), 4));
         figures.add(new Circle(new Point(-2, 4), 6));

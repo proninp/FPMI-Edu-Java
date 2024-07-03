@@ -1,12 +1,12 @@
 package task_3_1_2;
 
-import task_3_3_5.Planar;
+import task_3_3_5.Lengthable;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Polyline implements Planar {
+public class Polyline implements Lengthable {
     List<Point> points;
 
     public Polyline() {

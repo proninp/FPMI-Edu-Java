@@ -2,11 +2,11 @@ package task_3_1_2;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import task_3_3_5.Planar;
+import task_3_3_5.Lengthable;
 
 @Getter
 @RequiredArgsConstructor
-public class Point implements Planar {
+public class Point implements Lengthable {
     private final int x;
     private final int y;
 
